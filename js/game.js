@@ -193,7 +193,7 @@
         this.game = game;
         this.position = position;
         this.i = i;
-        this.size = { w: 12, h: 8 };
+        this.size = { w: 12, h: 7 };
         this.sprite = this.game.alien;
         this.speedX = 0.4;
         this.patrol = 0;
@@ -224,7 +224,7 @@
     
     var Xray = function(game, position, vel) {
         this.game = game;
-        this.size = { w: 3, h: 8 };
+        this.size = { w: 3, h: 7 };
         this.position = position;
         this.vel = vel;
         this.sprite = this.game.xray;
@@ -246,7 +246,7 @@
     
     var Death = function(game, position) {
         this.game = game;
-        this.size = { w: 11, h:8 };
+        this.size = { w: 11, h:7 };
         this.position = position;
         this.count = 13;
         this.sprite = this.game.death;
